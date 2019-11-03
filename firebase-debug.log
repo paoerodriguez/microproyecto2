@@ -1,0 +1,47 @@
+[debug] [2019-11-03T01:05:07.865Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T01:05:07.872Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Paola\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-11-03T01:05:07.873Z] CLI Version:   7.6.2
+[debug] [2019-11-03T01:05:07.873Z] Platform:      win32
+[debug] [2019-11-03T01:05:07.874Z] Node Version:  v10.16.3
+[debug] [2019-11-03T01:05:07.936Z] Time:          Sat Nov 02 2019 21:05:07 GMT-0400 (GMT-04:00)
+[debug] [2019-11-03T01:05:07.937Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T01:05:07.937Z] 
+[debug] [2019-11-03T01:05:08.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-03T01:05:08.056Z] > authorizing via signed-in user
+[debug] [2019-11-03T01:05:08.057Z] [iam] checking project microproyecto2-7d9fd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-11-03T01:05:08.062Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-11-03T01:05:08.063Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-11-03T01:05:11.857Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-03T01:05:11.924Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/microproyecto2-7d9fd:testIamPermissions  
+
+[debug] [2019-11-03T01:08:56.628Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T01:08:56.632Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Paola\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-11-03T01:08:56.632Z] CLI Version:   7.6.2
+[debug] [2019-11-03T01:08:56.632Z] Platform:      win32
+[debug] [2019-11-03T01:08:56.632Z] Node Version:  v10.16.3
+[debug] [2019-11-03T01:08:56.633Z] Time:          Sat Nov 02 2019 21:08:56 GMT-0400 (GMT-04:00)
+[debug] [2019-11-03T01:08:56.633Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T01:08:56.633Z] 
+[debug] [2019-11-03T01:08:56.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-03T01:08:56.644Z] > authorizing via signed-in user
+[debug] [2019-11-03T01:08:56.644Z] [iam] checking project microproyecto2-7d9fd for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-11-03T01:08:56.646Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/microproyecto2-7d9fd:testIamPermissions  
+
+[debug] [2019-11-03T01:09:02.008Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-03T01:09:02.014Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/microproyecto2-7d9fd  
+ 
+[debug] [2019-11-03T01:09:06.020Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'microproyecto2-7d9fd'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-11-03T01:09:06.088Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/microproyecto2-7d9fd/versions  
+
+[debug] [2019-11-03T01:09:14.566Z] <<< HTTP RESPONSE 200
+[info] i  hosting[microproyecto2-7d9fd]: beginning deploy...
+[info] i  hosting[microproyecto2-7d9fd]: found 23 files in public
+[debug] [2019-11-03T01:09:15.382Z] [hosting] hash cache [cHVibGlj] stored for 23 files
+[debug] [2019-11-03T01:09:15.382Z] [hosting][hash queue][FINAL]
+[debug] [2019-11-03T01:09:15.382Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/microproyecto2-7d9fd/versions/0c711f0e5be0fa82:populateFiles  
+ <request body omitted>
